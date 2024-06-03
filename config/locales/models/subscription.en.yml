@@ -1,0 +1,24 @@
+---
+en:
+  activerecord: 
+    models:
+      subscription:
+        one: Subscription
+        other: Subscriptions
+    attributes:
+      subscription:
+        user_id: User
+        status: Status
+        status_list:
+          unpaid: Unpaid
+          paid: Paid
+          canceled: Canceled
+    errors:
+      models:
+        subscription:
+          attributes:
+            status:
+              cant_cancel_canceled: Can't cancel if subscription is canceled
+              cant_cancel_unpaid: Can't cancel if subscription is unpaid
+              cant_pay_paid: Can't pay if subscription is paid
+              cant_pay_canceled: Can't pay if subscription is canceled

@@ -14,4 +14,5 @@
 #  index_users_on_external_id  (external_id) UNIQUE
 #
 class User < ApplicationRecord
+  has_many :subscriptions
 end

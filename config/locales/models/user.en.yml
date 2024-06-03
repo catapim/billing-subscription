@@ -1,0 +1,12 @@
+---
+en:
+  activerecord: 
+    models:
+      user: User
+    one: User
+    other: Users
+    attributes:
+      user:
+        email: Email
+        name: Name
+        external_id: External ID
