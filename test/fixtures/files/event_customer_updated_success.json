@@ -1,0 +1,92 @@
+{
+  "id": "evt_1PNUVtP7DAuh0MJOEMuSSJon",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1717396621,
+  "data": {
+    "object": {
+      "id": "customer_id",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1717396493,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "new_email@email.com",
+      "invoice_prefix": "1E5D99A6",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "new name",
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    "previous_attributes": {
+      "email": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_KIPkvdDFGKID3x",
+    "idempotency_key": "[FILTERED]"
+  },
+  "type": "customer.updated",
+  "webhook": {
+    "id": "evt_1PNUVtP7DAuh0MJOEMuSSJon",
+    "object": "event",
+    "api_version": "2024-04-10",
+    "created": 1717396621,
+    "data": {
+      "object": {
+        "id": "cus_QDwMAw0hM8umpC",
+        "object": "customer",
+        "address": null,
+        "balance": 0,
+        "created": 1717396493,
+        "currency": null,
+        "default_source": null,
+        "delinquent": false,
+        "description": null,
+        "discount": null,
+        "email": "boss@dundlermifflin.com",
+        "invoice_prefix": "1E5D99A6",
+        "invoice_settings": {
+          "custom_fields": null,
+          "default_payment_method": null,
+          "footer": null,
+          "rendering_options": null
+        },
+        "livemode": false,
+        "metadata": {},
+        "name": "Michael Scott",
+        "phone": null,
+        "preferred_locales": [],
+        "shipping": null,
+        "tax_exempt": "none",
+        "test_clock": null
+      },
+      "previous_attributes": {
+        "email": null
+      }
+    },
+    "livemode": false,
+    "pending_webhooks": 2,
+    "request": {
+      "id": "req_KIPkvdDFGKID3x",
+      "idempotency_key": "[FILTERED]"
+    },
+    "type": "customer.updated"
+  }
+}

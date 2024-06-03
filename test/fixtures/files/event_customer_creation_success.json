@@ -1,0 +1,43 @@
+{
+  "id": "evt_1PNIbOP7DAuh0MJOW1jJnU4S",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1717350834,
+  "data": {
+    "object": {
+      "id": "cus_QDk54pzKhRWDyF",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1717350833,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "alice@testemail.com",
+      "invoice_prefix": "20B691D8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "alice",
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_ba8mjB1mcQMc69",
+    "idempotency_key": "4f7ca3f8-b2c2-486c-8eaf-2eb0fabe6a1c"
+  },
+  "type": "customer.created"
+}
